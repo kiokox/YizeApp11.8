@@ -20,7 +20,7 @@ class MasonryActivity : ComponentActivity() {
         setContentView(R.layout.activity_masonry)
 
         val dataset = ArrayList<String>()
-        dataset.add("瀑布流")
+        dataset.add("1")
         dataset.add("2")
         dataset.add("3")
         dataset.add("4")
