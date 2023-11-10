@@ -21,6 +21,12 @@
             android:gravity="center"
             android:orientation="vertical">
 
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@mipmap/icon_masonry" />
+
             <TextView
                 android:id="@+id/text_view"
                 android:layout_width="match_parent"
