@@ -15,4 +15,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "YizeApp11.8"
 include(":app")
-include(":library")
