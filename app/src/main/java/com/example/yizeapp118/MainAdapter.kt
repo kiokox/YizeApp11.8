@@ -16,8 +16,6 @@ class MainAdapter(private val arrayList: ArrayList<LayoutEntity>) : BaseQuickAda
     /**
      * 在此方法中设置item数据
      */
-    class ItemVH(val viewBinding: HomeItemViewBinding) : RecyclerView.ViewHolder(viewBinding.root)
-
    override fun convert(helper: BaseViewHolder, item: LayoutEntity) {
         helper.setText(
             R.id.text_view,
@@ -29,14 +27,4 @@ class MainAdapter(private val arrayList: ArrayList<LayoutEntity>) : BaseQuickAda
        )
     }
 
-    // 创建新的view(调用layout管理器)
-    override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): BaseViewHolder {
-        // Create a new view, which defines the UI of the list item
-        val view = LayoutInflater.from(viewGroup.context)
-            .inflate(R.layout.home_item_view, viewGroup, false)
-
-        return BaseViewHolder(view)
-    }
-
-    override fun getItemCount() = arrayList.size
 }
