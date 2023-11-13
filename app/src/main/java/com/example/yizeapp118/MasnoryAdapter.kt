@@ -9,10 +9,6 @@ class MasonryAdapter(private val arrayList: ArrayList<CardEntity>) : BaseQuickAd
      * 如果后期设置数据，不需要传入初始List，直接调用 super(layoutResId)即可
      */
 
-    private val STANDARD_SCALE = 1.1
-    private val SCAL = 4 *1.0f / 3
-    private var cards = ArrayList<CardEntity>()
-
     /**
      * 在此方法中设置item数据
      */

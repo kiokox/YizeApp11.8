@@ -33,6 +33,7 @@ class MasonryActivity : ComponentActivity() {
         get() = arrayListOf(
             CardEntity("蝙蝠",R.mipmap.icon_bat,1024,1024),
             CardEntity("熊",R.mipmap.icon_bear,1024,1024),
+            CardEntity("海豹",R.mipmap.icon_seal,819,460),
             CardEntity("蜜蜂",R.mipmap.icon_bee,1024,1024),
             CardEntity("鸟",R.mipmap.icon_bird,1024,1024),
             CardEntity("鹦鹉",R.mipmap.icon_carrot,1024,1024),
