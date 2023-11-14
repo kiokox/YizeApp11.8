@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">YizeApp11.8</string>
+    <string name="title_activity_multi_item">MultiItemActivity</string>
 </resources>

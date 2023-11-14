@@ -6,6 +6,7 @@ import androidx.activity.ComponentActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.yizeapp118.activity.masonry.MasonryActivity
+import com.example.yizeapp118.activity.multiItem.MultiItemActivity
 import com.example.yizeapp118.databinding.ActivityDemoBinding
 import com.example.yizeapp118.entity.LayoutEntity
 
@@ -25,7 +26,7 @@ class MainActivity : ComponentActivity() {
 
         val mRecyclerView : RecyclerView = findViewById(R.id.recycler_view)
         mRecyclerView.layoutManager = LinearLayoutManager(this)
-        mRecyclerView.setAdapter(mainAdapter)
+        mRecyclerView.adapter = mainAdapter
 
         // item 点击事件
         mainAdapter.setOnItemClickListener { adapter, _, position ->
@@ -37,6 +38,6 @@ class MainActivity : ComponentActivity() {
     private val layoutItemData: ArrayList<LayoutEntity>
         get() = arrayListOf(
             LayoutEntity("瀑布流",MasonryActivity::class.java,R.mipmap.icon_masonry),
-            LayoutEntity("多布局",MasonryActivity::class.java,R.mipmap.icon_multi)
+            LayoutEntity("多布局", MultiItemActivity::class.java,R.mipmap.icon_multi)
         )
 }
