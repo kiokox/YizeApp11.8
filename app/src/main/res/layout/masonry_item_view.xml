@@ -1,23 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/card"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@android:color/holo_orange_light"
     android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/card_image"
+    <LinearLayout
+        android:id="@+id/ll_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:src="@mipmap/ic_launcher"
-        android:layout_gravity="center_horizontal"/>
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/card_title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        tools:text="hello" />
+        <ImageView
+            android:id="@+id/card_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            tools:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/card_title"
+            android:background="#e74f3a"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="hello"/>
+    </LinearLayout>
+
 </LinearLayout>
