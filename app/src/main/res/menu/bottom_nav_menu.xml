@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_ani"
+        android:icon="@drawable/ksw_md_thumb"
+        android:title="漫画"/>
+
+    <item android:id="@+id/menu_author"
+        android:icon="@drawable/ms__arrow"
+        android:title="作者"/>
+
+    <item android:id="@+id/menu_time"
+        android:icon="@drawable/ksw_md_thumb"
+        android:title="出版时间"/>
+</menu>
