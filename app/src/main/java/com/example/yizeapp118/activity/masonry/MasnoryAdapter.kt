@@ -1,7 +1,6 @@
 package com.example.yizeapp118.activity.masonry
 
 import android.widget.ImageView
-import android.widget.LinearLayout
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
 import com.example.yizeapp118.R
