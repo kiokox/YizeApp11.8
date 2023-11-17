@@ -75,7 +75,7 @@ dependencies {
     // For control over item selection of both touch and mouse driven selection
     implementation("androidx.recyclerview:recyclerview-selection:1.1.0")
     implementation("io.github.cymchad:BaseRecyclerViewAdapterHelper:3.0.14")
-    implementation("com.google.android.material:material:1.8.0")
+    implementation("com.google.android.material:material:1.1.0")
     implementation("androidx.cardview:cardview:1.0.0")
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("androidx.core:core-ktx:1.10.1")
@@ -88,6 +88,7 @@ dependencies {
 
     implementation ("com.jaredrummler:material-spinner:1.3.1")
     implementation("androidx.viewpager2:viewpager2:1.0.0")
+
 
 
 }

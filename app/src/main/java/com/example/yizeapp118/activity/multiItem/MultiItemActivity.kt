@@ -2,7 +2,6 @@ package com.example.yizeapp118.activity.multiItem
 
 import android.app.Activity
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.yizeapp118.R
@@ -29,7 +28,7 @@ class MultiItemActivity : Activity() {
             CardEntity("海豹",R.mipmap.icon_seal,170,60,0),
             CardEntity("蜜蜂",R.mipmap.icon_bee,200,200,1),
             CardEntity("鸟",R.mipmap.icon_bird,200,200,2),
-            CardEntity("鹦鹉",R.mipmap.icon_carrot,200,200,0),
+            CardEntity("鹦鹉",R.mipmap.icon_parrot,200,200,0),
             CardEntity("长颈鹿",R.mipmap.icon_giraffe,200,200,1),
             CardEntity("猫",R.mipmap.icon_cat,200,200,2),
             CardEntity("猫头鹰",R.mipmap.icon_owl,200,200,0),

@@ -7,7 +7,7 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recycler_multiItem"
-        android:background="#e74f3a"
+        android:background="@color/carrot"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:listitem="@layout/masonry_item_view"/>

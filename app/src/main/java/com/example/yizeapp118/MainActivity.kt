@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.yizeapp118.activity.masonry.MasonryActivity
 import com.example.yizeapp118.activity.multiItem.MultiItemActivity
 import com.example.yizeapp118.activity.swipe.ScreenSlidePagerActivity
+import com.example.yizeapp118.activity.tab.TabActivity
 import com.example.yizeapp118.databinding.ActivityDemoBinding
 import com.example.yizeapp118.entity.LayoutEntity
 
@@ -40,6 +41,7 @@ class MainActivity : ComponentActivity() {
         get() = arrayListOf(
             LayoutEntity("瀑布流",MasonryActivity::class.java,R.mipmap.icon_masonry),
             LayoutEntity("多布局", MultiItemActivity::class.java,R.mipmap.icon_multi),
-            LayoutEntity("联动", ScreenSlidePagerActivity::class.java,R.mipmap.icon_array)
+            LayoutEntity("滑动", ScreenSlidePagerActivity::class.java,R.mipmap.icon_array),
+            LayoutEntity("tab联动", TabActivity::class.java,R.mipmap.icon_array)
         )
 }

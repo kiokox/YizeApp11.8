@@ -22,7 +22,7 @@
             tools:src="@mipmap/ic_launcher"/>
         <TextView
             android:id="@+id/card_title"
-            android:background="#e74f3a"
+            android:background="@color/carrot"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="hello"/>

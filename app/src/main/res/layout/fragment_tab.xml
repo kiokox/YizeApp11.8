@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- fragment_screen_slide_page.xml -->
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/content"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <TextView style="?android:textAppearanceMedium"
-        android:id="@+id/tv_bg"
+        android:id="@+id/tv_tab"
         android:padding="16dp"
         android:lineSpacingMultiplier="1.2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/img_ani"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="1" />
+        android:src="@mipmap/icon_parrot"/>
 
-</ScrollView>
+</LinearLayout>
