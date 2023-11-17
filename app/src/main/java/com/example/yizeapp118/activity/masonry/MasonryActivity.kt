@@ -2,7 +2,6 @@ package com.example.yizeapp118.activity.masonry
 
 import android.app.Activity
 import android.os.Bundle
-import androidx.activity.ComponentActivity
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.StaggeredGridLayoutManager
 import com.example.yizeapp118.R
@@ -35,7 +34,7 @@ class MasonryActivity : Activity() {
             CardEntity("海豹",R.mipmap.icon_seal,16,9,0),
             CardEntity("蜜蜂",R.mipmap.icon_bee,1,1,1),
             CardEntity("鸟",R.mipmap.icon_bird,1,1,2),
-            CardEntity("鹦鹉",R.mipmap.icon_carrot,1,1,0),
+            CardEntity("鹦鹉",R.mipmap.icon_parrot,1,1,0),
             CardEntity("长颈鹿",R.mipmap.icon_giraffe,1,1,1),
             CardEntity("猫",R.mipmap.icon_cat,1,1,2),
             CardEntity("猫头鹰",R.mipmap.icon_owl,1,1,0),
