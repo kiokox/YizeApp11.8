@@ -25,9 +25,7 @@ class TabFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         arguments?.takeIf { it.containsKey(ARG_OBJECT) }?.apply {
-            // val textView: TextView = view.findViewById(R.id.tv_tab)
             val imageView: ImageView = view.findViewById(R.id.img_ani)
-            // textView.text = getInt(ARG_OBJECT).toString()
             imageView.setImageResource(arrayList[getInt(ARG_OBJECT) - 1 ])
         }
     }
