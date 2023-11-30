@@ -14,15 +14,15 @@ const val ARG_OBJECT = "object"
 class TabActivity : FragmentActivity() {
     // When requested, this adapter returns a DemoObjectFragment,
     // representing an object in the collection.
-    private lateinit var demoCollectionAdapter: TabCollectionAdapter
+    private lateinit var tabCollectionAdapter: TabCollectionAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tab)
 
-        demoCollectionAdapter = TabCollectionAdapter(this)
+        tabCollectionAdapter = TabCollectionAdapter(this)
         var viewPager = findViewById<ViewPager2>(R.id.pager_tab)
-        viewPager.adapter = demoCollectionAdapter
+        viewPager.adapter = tabCollectionAdapter
 
         val tabLayout = findViewById<TabLayout>(R.id.tab_tab)
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
