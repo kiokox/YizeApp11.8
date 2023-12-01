@@ -1,11 +1,7 @@
 package com.example.yizeapp118
 
-import android.view.LayoutInflater
-import android.view.ViewGroup
-import androidx.recyclerview.widget.RecyclerView
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
-import com.example.yizeapp118.databinding.HomeItemViewBinding
 import com.example.yizeapp118.entity.LayoutEntity
 
 class MainAdapter(private val arrayList: ArrayList<LayoutEntity>) : BaseQuickAdapter<LayoutEntity, BaseViewHolder>(R.layout.home_item_view,arrayList) {
