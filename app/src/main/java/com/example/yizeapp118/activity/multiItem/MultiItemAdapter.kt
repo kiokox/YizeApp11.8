@@ -1,6 +1,5 @@
 package com.example.yizeapp118.activity.multiItem
 
-import android.media.Image
 import android.widget.ImageView
 import com.chad.library.adapter.base.BaseMultiItemQuickAdapter
 import com.chad.library.adapter.base.viewholder.BaseViewHolder
